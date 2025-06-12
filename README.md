@@ -85,8 +85,6 @@ All environment variables must be prefixed with `VITE_` to be accessible in the 
 If you want to use a different Pokemon API:
 
 1. Update `VITE_POKEMON_API_BASE_URL` in your `.env` file
-2. Modify the `PokemonClient` service in `src/service/` to match your API's response format
-3. Update any TypeScript interfaces if the data structure differs
 
 ## Project Structure
 
