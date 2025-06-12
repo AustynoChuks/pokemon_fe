@@ -134,3 +134,20 @@ npm run preview
 2. **Environment variables not working**: Make sure all custom environment variables are prefixed with `VITE_`.
 
 3. **API requests failing**: Check that `VITE_POKEMON_API_BASE_URL` is correctly set and the API is accessible.
+
+![image](https://github.com/user-attachments/assets/f7b0bd40-ed2a-4b04-ae28-ae47ff462962)
+![image](https://github.com/user-attachments/assets/f7b0bd40-ed2a-4b04-ae28-ae47ff462962)
+
+![image](https://github.com/user-attachments/assets/2166036b-88d6-4bbc-b570-cb84bcf97254)
+![image](https://github.com/user-attachments/assets/2166036b-88d6-4bbc-b570-cb84bcf97254)
+
+![image](https://github.com/user-attachments/assets/3d4df683-0c6c-4539-8a77-cc106e399758)
+![image](https://github.com/user-attachments/assets/3d4df683-0c6c-4539-8a77-cc106e399758)
+
+### Add New Team
+![image](https://github.com/user-attachments/assets/d4db0f64-8e40-4d64-8543-63a15da4f23b)
+![image](https://github.com/user-attachments/assets/d4db0f64-8e40-4d64-8543-63a15da4f23b)
+
+### Add pokemon to new team
+![image](https://github.com/user-attachments/assets/7d644167-b97d-4ec6-8b85-27a3525b2596)
+![image](https://github.com/user-attachments/assets/7d644167-b97d-4ec6-8b85-27a3525b2596)
