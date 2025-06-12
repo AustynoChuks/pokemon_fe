@@ -5,7 +5,7 @@ class PokemonClient {
      */
     baseURL;
     defaultHeaders;
-    constructor(baseURL = 'http://localhost:8090/api') {
+    constructor(baseURL = import.meta.env.VITE_POKEMON_API_BASE_URL || 'http://localhost:8090/api') {
       this.baseURL = baseURL;
       this.defaultHeaders = {
         'Content-Type': 'application/json',
