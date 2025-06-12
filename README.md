@@ -95,25 +95,11 @@ All environment variables must be prefixed with `VITE_` to be accessible in the 
 
 | Variable | Description | Default Value |
 |----------|-------------|---------------|
-| `VITE_POKEMON_API_BASE_URL` | Base URL for the Pokemon API | `https://pokeapi.co/api/v2` |
+| `VITE_POKEMON_API_BASE_URL` | Base URL for the Pokemon API | `<local api service url>` |
 
-### Optional Variables
-
-| Variable | Description | Default Value |
-|----------|-------------|---------------|
-| `VITE_API_TIMEOUT` | API request timeout in milliseconds | `10000` |
-| `VITE_APP_NAME` | Application name | `Pokemon Team Builder` |
-| `VITE_APP_VERSION` | Application version | `1.0.0` |
-| `VITE_MAX_TEAM_SIZE` | Maximum Pokemon per team | `6` |
-| `VITE_MAX_TEAMS_PER_USER` | Maximum teams per user | `10` |
-| `VITE_STORAGE_PREFIX` | Local storage key prefix | `pokemon_teams_` |
-| `VITE_ENABLE_TEAM_SHARING` | Enable team sharing feature | `false` |
-| `VITE_DEFAULT_THEME` | Default UI theme | `light` |
-| `VITE_ENABLE_DARK_MODE` | Enable dark mode toggle | `true` |
 
 ## API Configuration
 
-This project uses the [PokéAPI](https://pokeapi.co/) to fetch Pokemon data. The API is free and doesn't require authentication.
 
 ### Custom API Setup
 
@@ -171,17 +157,3 @@ npm run preview
 2. **Environment variables not working**: Make sure all custom environment variables are prefixed with `VITE_`.
 
 3. **API requests failing**: Check that `VITE_POKEMON_API_BASE_URL` is correctly set and the API is accessible.
-
-4. **Build errors**: Run `npm run type-check` to identify TypeScript issues.
-
-### Getting Help
-
-- Check the browser console for error messages
-- Verify your `.env` file configuration
-- Ensure all dependencies are installed correctly
-- Check that Node.js version is 16 or higher
-
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
