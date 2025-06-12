@@ -21,7 +21,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/AustynoChuks/pokemon_fe.git
 cd pokemon_fe
 ```
 
@@ -49,29 +49,8 @@ Edit the `.env` file and configure the following variables:
 
 ```env
 # API Configuration
-VITE_POKEMON_API_BASE_URL=https://pokeapi.co/api/v2
-VITE_API_TIMEOUT=10000
+VITE_POKEMON_API_BASE_URL=<local_api_base_path/api>
 
-# Application Configuration
-VITE_APP_NAME=Pokemon Team Builder
-VITE_APP_VERSION=1.0.0
-
-# Development Configuration
-VITE_DEV_MODE=true
-VITE_ENABLE_LOGGING=true
-
-# Local Storage Configuration
-VITE_STORAGE_PREFIX=pokemon_teams_
-
-# Feature Flags
-VITE_ENABLE_TEAM_SHARING=false
-VITE_MAX_TEAM_SIZE=6
-VITE_MAX_TEAMS_PER_USER=10
-
-# UI Configuration
-VITE_DEFAULT_THEME=light
-VITE_ENABLE_DARK_MODE=true
-```
 
 ### 4. Start the Development Server
 
@@ -95,7 +74,7 @@ All environment variables must be prefixed with `VITE_` to be accessible in the 
 
 | Variable | Description | Default Value |
 |----------|-------------|---------------|
-| `VITE_POKEMON_API_BASE_URL` | Base URL for the Pokemon API | `<local api service url>` |
+| `VITE_POKEMON_API_BASE_URL` | Base URL for the Pokemon API | `<local api service url/api> i.e http://localhost:8080/api` |
 
 
 ## API Configuration
